@@ -1,0 +1,89 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Doodles",
+      "breed": "Poodle",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "name": "Insane",
+      "breed": "Dane",
+      "customerId": 1,
+      "locationId": 2
+    },
+    {
+      "name": "Scotch butter sweet thang",
+      "breed": "sugar",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "email": "puppy@puppybouncy.com",
+      "password": "puppy",
+      "name": "Puppy Dog",
+      "id": 1
+    }
+  ],
+  "employees": [
+    {
+      "name": "Sherman",
+      "locationId": 1,
+      "animalId": 1,
+      "id": 1
+    },
+    {
+      "name": "Madi",
+      "locationId": 1,
+      "animalId": 1,
+      "id": 3
+    },
+    {
+      "name": "Madi",
+      "locationId": 2,
+      "animalId": 1,
+      "id": 4
+    },
+    {
+      "name": "DJ",
+      "locationId": 2,
+      "animalId": 1,
+      "id": 5
+    },
+    {
+      "name": "homey",
+      "locationId": 1,
+      "animalId": 1,
+      "id": 6
+    },
+    {
+      "name": "hello kitty",
+      "locationId": 2,
+      "animalId": 1,
+      "id": 7
+    },
+    {
+      "name": "on time",
+      "locationId": 1,
+      "animalId": 2,
+      "id": 8
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Nashville North",
+      "address": "8422 Johnson Pike"
+    },
+    {
+      "id": 2,
+      "name": "Nashville South",
+      "address": "209 Emory Drive"
+    }
+  ]
+}

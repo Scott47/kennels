@@ -8,11 +8,18 @@
       "locationId": 2
     },
     {
-      "id": 1,
+      "id": 2,
       "name": "Insane",
       "breed": "Dane",
       "customerId": 1,
       "locationId": 2
+    },
+    {
+      "name": "Scotch butter sweet thang",
+      "breed": "sugar",
+      "locationId": 1,
+      "customerId": 1,
+      "id": 3
     }
   ],
   "customers": [
@@ -59,6 +66,12 @@
       "locationId": 2,
       "animalId": 1,
       "id": 7
+    },
+    {
+      "name": "on time",
+      "locationId": 1,
+      "animalId": 2,
+      "id": 8
     }
   ],
   "locations": [

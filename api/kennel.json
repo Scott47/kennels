@@ -23,12 +23,6 @@
       "id": 1
     },
     {
-      "name": "Sherman",
-      "locationId": 2,
-      "animalId": 1,
-      "id": 2
-    },
-    {
       "name": "Madi",
       "locationId": 1,
       "animalId": 1,
@@ -53,16 +47,10 @@
       "id": 6
     },
     {
-      "name": "Sherman",
-      "locationId": 1,
-      "animalId": 1,
-      "id": 7
-    },
-    {
-      "name": "Sherman",
+      "name": "hello kitty",
       "locationId": 2,
       "animalId": 1,
-      "id": 8
+      "id": 7
     }
   ],
   "locations": [

@@ -6,13 +6,21 @@
       "breed": "Poodle",
       "customerId": 1,
       "locationId": 2
+    },
+    {
+      "id": 1,
+      "name": "Insane",
+      "breed": "Dane",
+      "customerId": 1,
+      "locationId": 2
     }
   ],
   "customers": [
     {
-      "id": 1,
-      "name": "Hannah Hall",
-      "address": "7002 Chestnut Ct"
+      "email": "puppy@puppybouncy.com",
+      "password": "puppy",
+      "name": "Puppy Dog",
+      "id": 1
     }
   ],
   "employees": [

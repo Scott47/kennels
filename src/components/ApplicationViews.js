@@ -38,9 +38,9 @@ export const ApplicationViews = (props) => {
         </Route>
       </CustomerProvider>
 
-      <LocationProvider>
+      <EmployeeProvider>
         <AnimalProvider>
-          <EmployeeProvider>
+          <LocationProvider>
             {/* Render the animal list when http://localhost:3000/employees */}
             <Route
               exact
@@ -48,13 +48,12 @@ export const ApplicationViews = (props) => {
               render={(props) => <EmployeeList {...props} />}
             />
             <Route
-              exact
               path="/employees/create"
               render={(props) => <EmployeeForm {...props} />}
             />
-          </EmployeeProvider>
+          </LocationProvider>
         </AnimalProvider>
-      </LocationProvider>
+      </EmployeeProvider>
     </>
   );
 };

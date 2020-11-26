@@ -8,6 +8,7 @@ import { LocationList } from "./location/LocationList";
 import { LocationDetail } from "./location/LocationDetail";
 import { AnimalList } from "./animal/AnimalList";
 import { AnimalForm } from "./animal/AnimalForm";
+import { AnimalDetails } from "./animal/AnimalDetail";
 import { CustomerList } from "./customer/CustomerList";
 import { EmployeeList } from "./employee/EmployeeList";
 import { EmployeeForm } from "./employee/EmployeeForm";
@@ -43,6 +44,10 @@ export const ApplicationViews = (props) => {
             <Route
               path="/animals/create"
               render={(props) => <AnimalForm {...props} />}
+            />
+            <Route
+              path="/animals/:animalId(\d+)"
+              render={(props) => <AnimalDetails {...props} />}
             />
           </AnimalProvider>
         </CustomerProvider>

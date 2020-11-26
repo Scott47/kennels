@@ -11,7 +11,7 @@ export const AnimalList = (props) => {
   const { customers, getCustomers } = useContext(CustomerContext);
 
   useEffect(() => {
-    console.log("AnimalList: Initial render before data");
+    // console.log("AnimalList: Initial render before data");
     getLocations().then(getCustomers).then(getAnimals);
   }, []);
 

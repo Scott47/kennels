@@ -1,4 +1,3 @@
-import React, { useState } from "react"
 import "./Location.css"
 
 export const LocationDetail = (props) => {

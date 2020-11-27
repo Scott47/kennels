@@ -11,7 +11,7 @@ export const AnimalContext = React.createContext()
  */
 export const AnimalProvider = (props) => {
     const [animals, setAnimals] = useState([])
-    const [ searchTerms, setTerms ] = useState("")
+    const [ searchTerms, setSearch ] = useState("")
 
     const getAnimals = () => {
         return fetch("http://localhost:8088/animals")
@@ -41,9 +41,9 @@ export const AnimalProvider = (props) => {
         and the `getLocation` function as keys. This
         allows any child elements to access them.
     */
-    return (
-        <AnimalContext.Provider value={{
-            animals, addAnimal, getAnimals, getAnimalById
+   return (
+       <AnimalContext.Provider value={{
+           animals, addAnimal, getAnimals, getAnimalById, searchTerms, setSearch
         }}>
             {props.children}
         </AnimalContext.Provider>

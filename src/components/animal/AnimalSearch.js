@@ -7,7 +7,7 @@ export const AnimalSearch = (props) => {
 
     return (
         <>
-            Animal search:
+            Animal Search:
             <input type="text"
                 className="input--wide"
                 onKeyUp={

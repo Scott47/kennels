@@ -21,6 +21,7 @@ export const AnimalForm = (props) => {
   const breed = useRef(null);
   const customer = useRef(null);
   const location = useRef(null);
+  const status = useRef(null)
 
   /*
         Get animal state and location state on initialization.
@@ -44,9 +45,10 @@ export const AnimalForm = (props) => {
     } else {
       addAnimal({
         name: name.current.value,
-        breed: breed.current.value,
-        locationId,
-        customerId,
+        species: breed.current.value,
+        status: breed.current.value,
+        location_id: locationId,
+        customer_id: customerId,
       }).then(() => props.history.push("/animals"));
     }
   };
@@ -118,6 +120,20 @@ export const AnimalForm = (props) => {
               </option>
             ))}
           </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div className="form-group">
+          <label htmlFor="animalStatus">Animal status: </label>
+          <input
+            type="text"
+            id="animalStatus"
+            ref={status}
+            required
+            autoFocus
+            className="form-control"
+            placeholder="Animal status"
+          />
         </div>
       </fieldset>
       <button
